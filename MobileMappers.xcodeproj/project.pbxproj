@@ -14,6 +14,7 @@
 		EF7391961BFACCAD00EAD9D5 /* MobileMappers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF7391941BFACCAD00EAD9D5 /* MobileMappers.xcdatamodeld */; };
 		EF7391981BFACCAD00EAD9D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7391971BFACCAD00EAD9D5 /* Assets.xcassets */; };
 		EF73919B1BFACCAD00EAD9D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7391991BFACCAD00EAD9D5 /* LaunchScreen.storyboard */; };
+		EF7391A31BFACD2100EAD9D5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7391A21BFACD2100EAD9D5 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		EF7391971BFACCAD00EAD9D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF73919A1BFACCAD00EAD9D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF73919C1BFACCAD00EAD9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7391A21BFACD2100EAD9D5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7391A31BFACD2100EAD9D5 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,7 @@
 		EF73917C1BFACCAC00EAD9D5 = {
 			isa = PBXGroup;
 			children = (
+				EF7391A21BFACD2100EAD9D5 /* MapKit.framework */,
 				EF7391871BFACCAC00EAD9D5 /* MobileMappers */,
 				EF7391861BFACCAC00EAD9D5 /* Products */,
 			);
